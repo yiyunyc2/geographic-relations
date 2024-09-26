@@ -12,15 +12,15 @@ The data cleaning and pre-processing steps are demonstrated in [this notebook](h
 ## Results
 Results by each model were generated with the following python notebooks. Instructions on how to run the codes are also provided within each notebook. 
 
-- Heuristics model
+- [Heuristics model](https://github.com/yiyunyc2/geographic-relations/blob/b556923d3efa24bb0392e41bef1e9ae016104a1b/GeoIsa_Heuristics_model.ipynb)
   
-- OpenIE
+- [OpenIE](https://github.com/yiyunyc2/geographic-relations/blob/b556923d3efa24bb0392e41bef1e9ae016104a1b/GeoIsa_OpenIE_model.ipynb)
   
-- BERT
+- [BERT](https://github.com/yiyunyc2/geographic-relations/blob/b556923d3efa24bb0392e41bef1e9ae016104a1b/GeoIsa_BERT_model.ipynb)
   
-- GPT 3.5
+- [GPT 3.5](https://github.com/yiyunyc2/geographic-relations/blob/b556923d3efa24bb0392e41bef1e9ae016104a1b/Geo_Isa_GPT3.5_model.ipynb)
   
-- Mistral 
+- [Mistral](https://github.com/yiyunyc2/geographic-relations/blob/b556923d3efa24bb0392e41bef1e9ae016104a1b/GeoIsa_Mistral_model.ipynb) 
 
 ## Data analysis 
 Analysis of all five models results can be found in [this notebook](https://github.com/yiyunyc2/geographic-relations/blob/8b3c1ed0854d5a47e9fbd1fa1dcac24a171127fe/Geographic_relations_data_analysis.ipynb). 
