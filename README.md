@@ -21,4 +21,4 @@ Results by each model were generated with the following python notebooks. Instru
 - Mistral 
 
 ## Data analysis 
-Analysis of all five models results can be found in this notebook. 
+Analysis of all five models results can be found in [this notebook](https://github.com/yiyunyc2/geographic-relations/blob/8b3c1ed0854d5a47e9fbd1fa1dcac24a171127fe/Geographic_relations_data_analysis.ipynb). 
