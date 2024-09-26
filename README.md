@@ -4,6 +4,18 @@ This is the public repository for the data and results on the the "Extracting va
 ## Data 
 The data was collected via the Meltwater twitter (now X) firehose service. 
 
+The search queries we implemented on Meltwater to collect the tweets are as follows, for all 50 states of the United States:
+
+```
+(county\_name OR county\_name OR …) AND state\_name
+```
+
+For instance, for any tweets that mentioned any counties in the state of New Jersey, our search query was: 
+
+```
+(`Atlantic County' OR `Bergen County' OR `Burlington County' OR `Camden County' OR `Cape May County' OR `Cumberland County' OR `Essex County' OR `Gloucester County' OR `Hudson County' OR `Hunterdon County' OR `Mercer County' OR `Middlesex County' OR `Monmouth County' OR `Morris County' OR `Ocean County' OR `Passaic County' OR `Salem County' OR `Somerset County' OR `Sussex County' OR `Union County' OR `Warren County') AND `New Jersey'
+```
+
 Per Metlwater and X guideline, a shareable version of the data with the TweetID is [here](https://github.com/yiyunyc2/geographic-relations/blob/3a8abefeec7aa73d5936b5ceef039d84ae24639f/GeoIsa_50states_tweets_ids.csv). 
 
 ## Data cleaning and pre-processing 
